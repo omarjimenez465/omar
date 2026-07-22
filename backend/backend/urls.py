@@ -19,5 +19,5 @@ from django.urls import path
 from clientes import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cliente/', views.cliente)
+    path('', views.cliente)
 ]
